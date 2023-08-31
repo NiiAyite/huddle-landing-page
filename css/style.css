@@ -10,6 +10,10 @@ p {
     font-weight: 400;
 }
 
+h1 {
+    font-family: 'Poppins';
+}
+
 nav button:hover {
     cursor: pointer;
     color: hsl(208, 11%, 55%);
@@ -23,14 +27,14 @@ nav button:hover {
     width: 700px;
 }
 
-.hero-section .hero-about h1 {
-    font-family: 'Poppins';
-}
-
 .hero-section .hero-about p, button {
     font-family: 'Open Sans', sans-serif;
 }
 
 .hero-section .hero-about button:hover {
     background-color: #f9a8d4;
+}
+
+.grow-img img {
+    width: 600px;
 }
