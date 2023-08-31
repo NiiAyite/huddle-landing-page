@@ -5,3 +5,7 @@
 .btn {
     font-family: 'Open Sans', sans-serif;
 }
+
+.hero-section {
+    background-image: url(../images/bg-hero-desktop.svg);
+}
