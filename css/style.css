@@ -9,3 +9,7 @@
 .hero-section {
     background-image: url(../images/bg-hero-desktop.svg);
 }
+
+.hero-section .hero-img img {
+    width: 700px;
+}
