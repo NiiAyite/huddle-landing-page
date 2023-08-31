@@ -2,6 +2,14 @@
     font-size: 18px;
 }
 
+body {
+    color: hsl(192, 100%, 9%);
+}
+
+p {
+    font-weight: 400;
+}
+
 .btn {
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,4 +20,12 @@
 
 .hero-section .hero-img img {
     width: 700px;
+}
+
+.hero-section .hero-about h1 {
+    font-family: 'Poppins';
+}
+
+.hero-section .hero-about p, button {
+    font-family: 'Open Sans', sans-serif;
 }
