@@ -10,8 +10,9 @@ p {
     font-weight: 400;
 }
 
-.btn {
-    font-family: 'Open Sans', sans-serif;
+nav button:hover {
+    cursor: pointer;
+    color: hsl(208, 11%, 55%);
 }
 
 .hero-section {
@@ -28,4 +29,8 @@ p {
 
 .hero-section .hero-about p, button {
     font-family: 'Open Sans', sans-serif;
+}
+
+.hero-section .hero-about button:hover {
+    background-color: #f9a8d4;
 }
