@@ -48,10 +48,16 @@ nav button:hover {
 }
 
 .question-card {
+    padding: 4rem;
     text-align: center;
     width: 50rem;
 }
 
 .question-card button {
+    margin-top: 1.5rem;
     padding: 1rem 2rem;
+}
+
+footer img {
+    color: #ffffff;
 }
