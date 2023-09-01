@@ -46,3 +46,12 @@ nav button:hover {
 .users-img img {
     width: 600px ;
 }
+
+.question-card {
+    text-align: center;
+    width: 50rem;
+}
+
+.question-card button {
+    padding: 1rem 2rem;
+}
