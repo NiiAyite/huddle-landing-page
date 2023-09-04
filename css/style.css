@@ -48,9 +48,13 @@ nav button:hover {
 }
 
 .question-card {
+    background-color: #ffffff;
     padding: 4rem;
     text-align: center;
     width: 50rem;
+    position: relative;
+    top: 5rem;
+    left: 20rem;
 }
 
 .question-card button {
@@ -58,6 +62,64 @@ nav button:hover {
     padding: 1rem 2rem;
 }
 
-footer img {
+footer {
+    padding-top: 10rem;
+    background-color: rgb(8 51 68);
     color: #ffffff;
+}
+
+footer img.footer-logo {
+    padding: 1rem;
+    background-color: white;
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+
+.footer-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    justify-content: start;
+}
+
+.location img, .phone img, .email img {
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.location p {
+    font-size: .75rem;
+    width: 10rem;
+}
+
+.phone, .email {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: start;
+}
+
+.phone p, .email p {
+    font-size: .75rem;
+}
+
+.footer-links {
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links p {
+    font-size: .75rem;
+}
+
+.line1 p, .line2 p {
+    padding: 1rem;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: right;
 }
